@@ -3,3 +3,8 @@ Rojo
 Verde
 Blanco
 Negro
+otro negro
+Amarillo
+Purpura
+Rosa
+Cyan
