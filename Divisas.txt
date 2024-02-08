@@ -1,0 +1,6 @@
+peso
+dolar
+yen
+dolar canadiense
+peso argentino
+bitcoin
