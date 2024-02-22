@@ -17,4 +17,4 @@ elif CantidadDeManzanas >= 10:
 else :
     print("No hay descuento :c")
     print(f"El total es {totalAPagar}")
-print("Gracias por comprar,tqm.")
+    print("Gracias por comprar,tqm.")
