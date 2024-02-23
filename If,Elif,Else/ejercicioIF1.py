@@ -1,8 +1,8 @@
 numerouno = input("Ingrese un primer numero. ")
 numerodos = input("Ingrese un segundo numero. ")
 if numerouno > numerodos :
-    print("El numero mayor es el primero.")
+    print(f"El numero menor es el segundo,osea {numerodos}")
 elif numerouno < numerodos :
-    print("El numero mayor es el segundo.")
+    print(f"El numero menor es el primero,osea {numerouno}")
 elif numerouno == numerodos :
-    print("Ambos numeros son iguales broh.")
+    print(f"{numerouno} y {numerodos} son iguales dude.")
