@@ -24,5 +24,6 @@ resultado = Sumota(numuno,numdos)
 print(f"El resultado fuera de la funcion es {resultado}")
 r2= resultado.split()
 print(r2)
+#El split asi no sirve,porque?
 #Recomendable:todas las funcionas van hasta arriba,para que puedas minimizarlas.
 Multota(numuno,numdos)
