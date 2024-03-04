@@ -7,16 +7,27 @@ def descuentotes(Cantidad,Precio):
     elif Cantidad >= 10:
         Descuento = (Cantidad * Precio) * .10
         print(f"El descuento es de {Descuento}")
-        totalAPagar = (Cantidad * Precio) - Descuento
+
 
     else :
         print("No hay descuento :c")
         Descuento = 0
     return Descuento
 
+def TOTAL(Cantidad,Precio,descuento):
+    
+    totalAPagar = (Cantidad * Precio) - Descuento
+    print(f"El total es de {totalAPagar}")
+    
 Descuento = descuentotes(18,15)
+TOTAL(18,15,Descuento)
 print(Descuento)
 Descuento = descuentotes(10,10)
 print(Descuento)
 Descuento = descuentotes(5,10)
 print(Descuento)
+
+
+food=(input("elige entre Manzanas,Peras,Uvas,Papayas,Sandias,Mango y Maracuya.     "))
+
+print(food)

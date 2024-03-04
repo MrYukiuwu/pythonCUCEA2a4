@@ -1,15 +1,23 @@
-import funciones
+import funcionesTDM
+import os
 
+food=(input("elige entre Manzanas,Peras,Uvas,Papayas,Sandias,Mango y Maracuya.     "))
 Descuento = 0
-Cantidad= float (input("Ingresa cuantas manzanas quieres vender. "))
+funcionesTDM.borrarPantalla()
+
+Cantidad= float (input(f"Ingresa cuanto de {food} quieres vender. "))
+
 while Cantidad != 0:
-    Precio= float (input("Ingresa el precio de las manzanas. "))
-
-    descuentotes()
-
-    totalAPagar = Cantidad * Precio
+    if Cantidad == 0:
+        break
     
-    Cantidad= float (input("Ingresa cuantas manzanas quieres vender. "))
+    Precio= float (input(f"Ingresa el precio de {food}. "))
+
+    funcionesTDM.borrarPantalla()
+    Descuento=funcionesTDM.descuentotes(Cantidad,Precio)
+    funcionesTDM.TOTAL(Cantidad,Precio,Descuento)
+    
+    Cantidad=(input(f"Ingresa cuanto de {food} quieres vender. "))
     
 #Le falta :(
     
