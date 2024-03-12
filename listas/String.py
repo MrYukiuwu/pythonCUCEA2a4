@@ -16,6 +16,9 @@ print(nombre.lower())
 print(nombre[0])
 #esto con cocrhetes,elige la primera letra del nombre
 #p
+print(nombre[0:2])
+#elige un rango
+#Pe
 print(nombre[::-1])
 #Esto lo pone al revés
 #epeP
@@ -25,4 +28,3 @@ print(nombre.replace("e","a"))
 print(nombre.split("p"))
 #parte la letra que indiques
 #['Pe', 'e']
-print(nombre[0:2])
