@@ -8,8 +8,7 @@ funcionesTDM.borrarPantalla()
 Cantidad= float (input(f"Ingresa cuanto de {food} quieres vender. "))
 
 while Cantidad != 0:
-    if Cantidad == 0:
-        break
+
     
     Precio= float (input(f"Ingresa el precio de {food}. "))
 
@@ -18,7 +17,8 @@ while Cantidad != 0:
     funcionesTDM.TOTAL(Cantidad,Precio,Descuento)
     
     Cantidad=(input(f"Ingresa cuanto de {food} quieres vender. "))
-    
+    if Cantidad==0:
+        break
 #Le falta :(
     
     
