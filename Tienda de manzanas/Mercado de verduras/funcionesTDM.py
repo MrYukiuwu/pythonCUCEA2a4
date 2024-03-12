@@ -1,5 +1,6 @@
 def descuentotes(Cantidad,Precio):
-    if  Cantidad >= 10:
+    Descuento=0
+    if Cantidad >= 10 :
         Descuento = (Cantidad * Precio) * .10
         print(f"El descuento es de {Descuento}")
     #Para un caso especifico,ponlo hasta arriba.
@@ -7,7 +8,7 @@ def descuentotes(Cantidad,Precio):
 
     else :
         print("No hay descuento :c")
-        Descuento = 0
+        
     return Descuento
 
 def TOTAL(Cantidad,Precio,Descuento):
