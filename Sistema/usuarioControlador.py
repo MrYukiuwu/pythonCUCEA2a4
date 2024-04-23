@@ -2,6 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 import usuarioModelo
 
+#funcion uno,agarra TODOS los datos
 def consultarDatosUsuario():
     try:
         connection = mysql.connector.connect(host='localhost',
@@ -24,7 +25,8 @@ def consultarDatosUsuario():
             cursor.close()
             connection.close()
             # print("MySQL connection is closed")
-            
+ 
+#funcion dos,sirve para solo mostrar un usuario            
 def consultarDatosUsuarios(codigo):
     try:
         connection = mysql.connector.connect(host='localhost',
