@@ -2,7 +2,7 @@ import usuarioControlador
 import usuarioModelo
 
 modeloUsuario = usuarioModelo.usuario
-datos = usuarioControlador.consultarDatosUsuario()
+datos = usuarioControlador.consultarDatosUsuarios()
 # for fila in datos :
 #     modeloUsuario["usuario"] = fila[0]
 #     modeloUsuario["nombre"] = "@"+ fila[1]
@@ -14,7 +14,7 @@ datos = usuarioControlador.consultarDatosUsuario()
 
 
 numero = input("inserte numero de id a buscar.    ")
-datos = usuarioControlador.consultarDatosUsuarios(numero)
+datos = usuarioControlador.consultarDatosUnUsuario(numero)
 #esta solo registra el usuario con el id que tu pones aca arriba,e otra funcion distinta a la de arriba.
 for fila in datos :
     modeloUsuario["usuario"] = fila[0]
