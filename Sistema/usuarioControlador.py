@@ -50,7 +50,6 @@ def consultarDatosUnUsuario(codigo):
             connection.close()
             # print("MySQL connection is closed")
  
-
 #funcion para BORRAR un usuario        
 def BORRARDatosUnUsuario(codigo):
     
